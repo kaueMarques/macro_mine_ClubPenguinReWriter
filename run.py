@@ -7,6 +7,7 @@ def iniciar_macro():
     print("Você tem 5 segundos para clicar na tela da mina")
     time.sleep(5)
     print("\n\nRodando a macro...")
+
     while(True):
 
         #os numeros são referentes ao x inicial e final do quadrado
@@ -44,7 +45,6 @@ def iniciar_macro():
         pyautogui.press("d")
 
 def menu():
-    
     print("""\n\n
     ================================================================\n
     \t\t\tMacro Club Penguin\n
@@ -65,6 +65,7 @@ def menu():
             time.sleep(3)
             print(pyautogui.position(),"\n") 
         print("agora arrume o script")  
+        menu()
 
 
 menu()
