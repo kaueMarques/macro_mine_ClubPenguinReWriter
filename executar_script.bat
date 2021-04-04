@@ -1,3 +1,2 @@
 pip install pyautogui
-clear
-py .\run.py
+py .\script.py
